@@ -16,7 +16,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
       <div class="right-section">
         <div class="user-info">
           <span>Wu Jun</span>
-          <img src="assets/avatar.png" alt="User Avatar" class="avatar" />
+          <img src="assets/images/avatar.png" alt="User Avatar" class="avatar" />
         </div>
       </div>
     </header>
