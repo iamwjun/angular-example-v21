@@ -1,0 +1,27 @@
+// src/app/layout/main-layout/main-layout.component.scss
+.layout-container {
+  display : flex;
+  height  : 100vh;
+  overflow: hidden;
+
+  .main-section {
+    flex            : 1;
+    display         : flex;
+    flex-direction  : column;
+    overflow-y      : auto;
+    transition      : margin-left 0.3s ease;
+    background-color: #f4f7f6; // 企业级应用常用的浅灰色背景
+  }
+
+  .content-area {
+    flex   : 1;
+    padding: 24px; // 统一的内边距
+  }
+}
+
+// 侧边栏折叠时的样式微调（可选）
+.sidebar-collapsed {
+  .main-section {
+    // 如果侧边栏是 absolute 布局，这里可以调整 margin
+  }
+}
